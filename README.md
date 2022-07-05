@@ -13,6 +13,9 @@ The proposal payload does the following:
 
 - Withdrawal of 50'000 USDC to the Ethereum account provided by Hacxyk.
 
+## Deployments
+- PayloadBountyHacxykFallbackOracle: [https://etherscan.io/address/0xf4294973b7e6f6c411dd8a388592e7c7d32f2486#code](https://etherscan.io/address/0xf4294973b7e6f6c411dd8a388592e7c7d32f2486#code)
+
 ## Setup
 Create a `.env` file following the `.env.example`, adding a Ethereum node URL (Alchemy, Infura)
 

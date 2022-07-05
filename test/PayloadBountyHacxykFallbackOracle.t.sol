@@ -10,7 +10,9 @@ contract PayloadBountyHacxykFallbackOracleTest is Test {
   function setUp() public {}
 
   function testPayment() public {
-    PayloadBountyHacxykFallbackOracle payload = new PayloadBountyHacxykFallbackOracle();
+    PayloadBountyHacxykFallbackOracle payload = PayloadBountyHacxykFallbackOracle(
+        0xF4294973B7E6F6C411dD8A388592E7c7D32F2486
+      );
 
     address[] memory targets = new address[](1);
     targets[0] = address(payload);
